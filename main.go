@@ -4,6 +4,9 @@ import "fmt"
 
 func main() {
 
-	fmt.Println("Hello World!") //This is a print statement
+	fmt.Println("Hello World!")
+
+	cards := newDeck()
+	cards.print()
 
 }
